@@ -1,6 +1,6 @@
 # Celebal Technologies COE Data Science Program
 
-The COE (Center of Excellence) program at CELEBAL Technology aims to impart hands-on experience and practical knowledge in various domains of Data Science. This repository scontains the assignment programs and tasks completed over the weeks of the program.
+The COE (Center of Excellence) program at CELEBAL Technology aims to impart hands-on experience and practical knowledge in various domains of Data Science. This repository contains the assignment programs and tasks completed over the weeks of the program.
 
 ## About Me
 
