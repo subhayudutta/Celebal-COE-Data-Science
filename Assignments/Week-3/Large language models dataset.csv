@@ -1,0 +1,343 @@
+Model,Comapany,Arch,Parameters,Tokens ,Ratio,ALScore,Training dataset,Release Date,Notes,Playground
+Olympus,Amazon,TBA,2000,40000,20:01,29.8,TBA,TBA,"New related Titan details: '$65m training run. 200B dense model on 4T tokens of data across 13,760 NVIDIA A100 chips. 48 days to train. Training runs soon to cross $1B' https://importai.substack.com/p/import-ai-365-wmd-benchmark-amazon",https://lifearchitect.ai/olympus/
+GPT-5,OpenAI,TBA,2000,TBA,TBA,TBA,TBA,TBA,Due 2024.,https://lifearchitect.ai/gpt-5/
+GPT-6,OpenAI,TBA,TBA,TBA,TBA,TBA,TBA,TBA,Due 2025.,https://lifearchitect.ai/gpt-6/
+AuroraGPT (ScienceGPT),ANL,TBA,1000,TBA,TBA,TBA,TBA,TBA,https://tpc.dev/2023/11/10/tpc-announced-with-founding-partners/,https://www.hpcwire.com/2023/11/13/training-of-1-trillion-parameter-scientific-ai-begins/
+Grok-2,xAI,TBA,TBA,TBA,TBA,TBA,TBA,TBA,Due 2025.,https://twitter.com/elonmusk/status/1773655245769330757
+Qwen2,Alibaba,TBA,TBA,TBA,TBA,TBA,TBA,TBA,Due 2024.,https://qwenlm.github.io/blog/qwen1.5-110b/
+Gemma 2,Google DeepMind,Dense,27,6000,223:01:00,1.3,TBA,TBA,Due Jun/2024.,https://venturebeat.com/ai/google-gemma-2-27-billion-lightweight-model/
+MAI-1,Microsoft,Dense,500,10000,20:01,7.5,TBA,TBA,Due 2024. MAI=Microsoft artificial intelligence. MSFT CTO statement: https://archive.md/XRSgS,https://arstechnica.com/information-technology/2024/05/microsoft-developing-mai-1-language-model-that-may-compete-with-openai-report/ 
+Sparse Llama 7B,Cerebras,Hybrid,7,145,21:01,0.1,"Wikipedia, books, common crawl",24-May,"https://www.cerebras.net/blog/introducing-sparse-llama-70-smaller-3x-faster-full-accuracy ""For the 50% sparse model, we utilized 45 billion tokens of pretraining data, while an additional 100 billion tokens were used for the 70% model. This represents approximately 2% to 8% of the original 2 trillion tokens used to train the base Llama-2 model.""",https://huggingface.co/spaces/neuralmagic/llama-2-sparse-transfer-chat-deepsparse
+Gemini 1.5 Flash,Google DeepMind,MoE,1.8,1,,,"Wikipedia, books, common crawl",24-May,MMLU=78.9. GPQA=39.5. 1M context length.,https://aistudio.google.com/app/prompts/new_chat
+GPT-4o,OpenAI,MoE,1760,32768,,,"Wikipedia, books, common crawl",24-May,MMLU=88.7. GPQA=53.6. Omnimodel. ‘[GPT-4o is] likely an early checkpoint of GPT-5’. https://twitter.com/drjimfan/status/1790089671365767313 ELO: https://twitter.com/LiamFedus/status/1790064963966370209 Demo: https://youtu.be/DQacCB9tDaw,https://chatgpt.com/
+Falcon 2,TII,Dense,11,5500,500:01:00,0.8,"Wikipedia, books, common crawl",24-May,MMLU=58.37. Announce: https://www.tii.ae/news/falcon-2-uaes-technology-innovation-institute-releases-new-ai-model-series-outperforming-metas,https://huggingface.co/tiiuae/falcon-11B
+Fugaku-LLM,Fujitsu,Dense,13,380,30:01:00,0.2,"Wikipedia, books, common crawl",24-May,"Japanese. CPU trained: 158,976+ A64FX CPUs (7M+ cores), zero GPUs. https://en.wikipedia.org/wiki/Fugaku_(supercomputer)",https://huggingface.co/Fugaku-LLM/Fugaku-LLM-13B-instruct
+Yi 1.5,01-ai,Dense,34.4,3600,105:01:00,1.2,"Wikipedia, books, common crawl",24-May,MMLU=76.8. Uses 600B more training tokens than Yi 1.0 (Nov/2023).,https://huggingface.co/01-ai/Yi-1.5-34B-Chat
+YOCO,Microsoft,Dense,3,1600,534:01:00,0.2,"Wikipedia, books, common crawl",24-May,"With Tsingua. You Only Cache Once (YOCO). Long context ""1M context length with near-perfect needle retrieval accuracy""",https://github.com/microsoft/unilm/tree/master/YOCO
+DeepSeek-V2,DeepSeek-AI,MoE,236,8100,35:01:00,4.6,"Wikipedia, books, common crawl",24-May,"MMLU=78.5. Huge dataset, 12% Chinese ""Therefore, we acknowledge that DeepSeek-V2 still has a slight gap in basic English capabilities with LLaMA3 70B"".",https://chat.deepseek.com/
+ChuXin,Independent,Dense,1.6,2300,"1,438:1",0.2,"Wikipedia, books, common crawl",24-May,"MMLU=41.07. ""results on the ”Needle In A Haystack”(NIAH) tests indicate that ChuXin-1M performs well across all context window lengths up to 1M.""",https://huggingface.co/chuxin-llm/Chuxin-1.6B-Base
+RWKV-v6 Finch,RWKV,Dense,7.63,2500,328:01:00,0.5,"Wikipedia, books, common crawl",24-May,https://twitter.com/BlinkDL_AI/status/1787834625211158562,https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-2
+xLSTM,ELLIS,Dense,2.7,15,6:01,0,"Wikipedia, books, common crawl",24-May,"New method LSTM to xLSTM, see also RNNs. Code/weights doesn't seem to be released. https://github.com/AI-Guru/xlstm-resources",
+Granite Code,IBM,Dense,34,3500,103:01:00,1.1,"Wikipedia, books, common crawl",24-May,"Dataset: publicly available datasets (e.g., GitHub Code Clean, Starcoder data), public code repositories, and issues from GitHub.",https://github.com/ibm-granite/granite-code-models
+Qwen-Max,Alibaba,Dense,300,6000,20:01,4.5,"Wikipedia, books, common crawl",24-May,https://twitter.com/JustinLin610/status/1787584325367529509,https://chat.lmsys.org/
+Med-Gemini-L 1.0,Google DeepMind,Dense,1500,30000,20:01,22.4,"Wikipedia, books, common crawl",24-May,"Med-Gemini-M 1.0 and Med-Gemini-L 1.0  (Pro and Ultra finetunes) ""For language tasks that require less complex reasoning, such as summarizing medical notes and creating referral letters, we introduce Med-Gemini-M 1.0 by fine-tuning the Gemini 1.0 Pro model. For other tasks that require more advanced reasoning, we introduce Med-Gemini-L 1.0 by fine-tuning the Gemini 1.0 Ultra model using a self-training method to enable the models to efficiently use web search.""",https://twitter.com/alan_karthi/status/1785117450528264216
+Qwen-1.5 110B,Alibaba,Dense,111,3000,28:01:00,1.9,"Wikipedia, books, common crawl",24-Apr,"MMLU=80.4. Worse performance on GPQA (72B=36.3, 110B=35.9).",https://huggingface.co/spaces/Qwen/Qwen1.5-110B-Chat-demo
+Arctic,Snowflake AI Research,Hybrid,480,3500,8:01,4.3,"Wikipedia, books, common crawl",24-Apr,"MMLU=67.3. ""Arctic uses a unique Dense-MoE Hybrid transformer architecture. It combines a 10B dense transformer model with a residual 128×3.66B MoE MLP resulting in 480B total and 17B active parameters chosen using a top-2 gating.""",https://arctic.streamlit.app/
+SenseNova 5.0,SenseTime,MoE,600,10000,17:01,8.2,"Wikipedia, books, common crawl",24-Apr,MMLU=84.78. GPT-4 scale; low media coverage; no demo in Western world. https://www.techinasia.com/sensetime-pauses-trading-stock-rises-30-model-launch,
+OpenELM,Apple,Dense,3.04,1.5,1:01,0,"Wikipedia, books, common crawl",24-Apr,"MMLU=26.76. On-device model (laptop, phone). Open-source Efficient Language Models (OpenELM). https://venturebeat.com/ai/apple-releases-openelm-small-open-source-ai-models-designed-to-run-on-device/",https://huggingface.co/apple/OpenELM-3B-Instruct
+phi-3-medium,Microsoft,Dense,14,4800,343:01:00,0.9,Synthetic data,24-Apr,"MMLU=78.2 (preview only, benchmarks being investigated)",Weights coming soon
+phi-3-mini,Microsoft,Dense,3.8,3300,869:01:00,0.4,Synthetic data,24-Apr,"MMLU=68.8. ""phi3-mini can be quantized to 4-bits so that it only occupies ≈ 1.8GB of memory. We tested the quantized model by deploying phi-3-mini on iPhone 14 with A16 Bionic chip running natively on-device and fully offline achieving more than 12 tokens per second.""",https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
+Llama 3,Meta AI,Dense,70,15000,215:01:00,3.4,"Wikipedia, books, common crawl",24-Apr,MMLU=82. 405B model coming soon.,https://meta.ai/
+HLAT,Amazon,Dense,7,1800,258:01:00,0.4,"Wikipedia, books, common crawl",24-Apr,MMLU=41.318. HLAT=High-quality LLM pre-trained on AWS Trainium. Same arch as Llama 7B. The pre-training is performed up to 64 Amazon EC2 trn1.32xlarge instances with totalling up to 1024 AWS Trainium accelerators. Read more about Trainium: https://www.aboutamazon.com/news/aws/what-you-need-to-know-about-the-aws-ai-chips-powering-amazons-partnership-with-anthropic,
+Idefics2,Hugging Face,Dense,8.4,,,,"Wikipedia, books, common crawl",24-Apr,Clone of Flamingo now using Mistral 7B. Named after Asterix and Obelix's dog Idefix (Image-aware Decoder Enhanced à la Flamingo with Interleaved Cross-attentionS),https://huggingface.co/HuggingFaceM4/idefics2-8b
+Reka Core,Reka AI,Dense,300,10000,34:01:00,5.8,"Wikipedia, books, common crawl",24-Apr,MMLU=83.2. https://www.reka.ai/news/reka-core-our-frontier-class-multimodal-language-model,https://poe.com/RekaCore
+WizardLM-2-8x22B,Microsoft,MoE,141,2000,15:01,1.8,"Wikipedia, books, common crawl",24-Apr,Base model = mistral-8x22b.,Removed from HF. Official update: https://twitter.com/WizardLM_AI/status/1780101465950105775
+Pile-T5,EleutherAI,Dense,11,2000,182:01:00,0.5,"Wikipedia, books, common crawl",24-Apr,MMLU=53.84,https://huggingface.co/EleutherAI/pile-t5-xxl
+Zephyr 141B-A35B,Hugging Face H4,MoE,35,2000,58:01:00,0.9,"Wikipedia, books, common crawl",24-Apr,mixtral-8x22b finetune using Odds Ratio Preference Optimization (ORPO).,https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1
+Rerank 3,Cohere,Dense,104,4000,39:01:00,2.1,"Books, common crawl",24-Apr,"RAG + semantic search, possibly backed by Command-R+.",https://docs.cohere.com/reference/rerank-1
+gpt-4-turbo-2024-04-09,OpenAI,MoE,,,,,"Wikipedia, books, common crawl",24-Apr,"This is such a significantly better model that I've added it here. This GPQA=46.5%, old GPT-4 GPQA=36%. https://twitter.com/EpochAIResearch/status/1778463039932584205 MMLU scores are unclear, but may have improved by 1%: https://twitter.com/OpenAI/status/1778602770784002136",https://chat.openai.com/
+MiniCPM-2.4B,Tsinghua,Dense,2.4,1100,459:01:00,0.2,"Wikipedia, books, common crawl",24-Apr,MoE option=https://huggingface.co/openbmb/MiniCPM-MoE-8x2B,https://github.com/OpenBMB/MiniCPM/
+mixtral-8x22b,Mistral,MoE,141,2000,15:01,1.8,"Wikipedia, books, common crawl",24-Apr,"MoE=22Bx8, seq=65536. MMLU=77.75",https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1
+Sailor,Sail,Dense,7,200,29:01:00,0.1,"Wikipedia, books, common crawl",24-Apr,"SEA languages. Based on Qwen-1.5. https://github.com/sail-sg/sailor-llm ""Generally Sailor models consume around 200B tokens, completing a full pass through the SailCraft corpus once. However, the Sailor-0.5B model undergoes training with 400B tokens, equivalent to 2 epochs.""",https://huggingface.co/sail
+JetMoE-8B,MIT,MoE,8,1250,157:01:00,0.3,"Wikipedia, books, common crawl",24-Apr,MMLU=49.2. MoE.,https://www.lepton.ai/playground/chat?model=jetmoe-8b-chat
+Eurus,Tsinghua,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",24-Apr,Fine-tune of Mistral-7B and CodeLlama-70B.,https://huggingface.co/collections/openbmb/eurus-660bc40bec5376b3adc9d1c5
+Command-R+,Cohere,Dense,104,4000,39:01:00,2.1,"Books, common crawl",24-Apr,MMLU=75.7. 'purpose-built to excel at real-world enterprise use cases. Announce with no arch details: https://txt.cohere.com/command-r-plus-microsoft-azure/,https://huggingface.co/spaces/CohereForAI/c4ai-command-r-plus
+Viking,Silo AI,Dense,33,2000,61:01:00,0.9,"Wikipedia, books, common crawl",24-Apr,"Viking uses an architecture similar to Llama 2, with flash attention, rotary embeddings, grouped query attention and supports a 4k sequence length'",
+OLMo-Bitnet-1B,Nous Research,Dense,1,60,60:01:00,0,"Wikipedia, books, common crawl",24-Apr,1.58-bit quantized (ternary weights) means we can run a 70B model in ~14GB VRAM. See also BitNet b1.58,https://huggingface.co/NousResearch/OLMo-Bitnet-1B
+Aurora-M,International,Dense,15.5,2035,132:01:00,0.6,"Wikipedia, books, common crawl",24-Mar,,https://huggingface.co/collections/aurora-m/aurora-m-models-65fdfdff62471e09812f5407
+ReALM-3B,Apple,Dense,3,134,45:01:00,0.1,"Wikipedia, books, common crawl",24-Mar,FLAN-T5 (Oct/2022) finetune.,
+Qwen1.5-MoE-A2.7B,Alibaba,MoE,14.3,1500,105:01:00,0.5,"Wikipedia, books, common crawl",24-Mar,"MMLU=62.5. MoE. ""Of particular significance is the fact that, through upcycling, the necessity for training an equivalent volume of tokens as in the original model has been eliminated."" I assumed half of the original 3T tokens",https://qwenlm.github.io/blog/qwen-moe/
+Grok-1.5,xAI,Dense,314,6000,20:01,4.6,"Wikipedia, books, common crawl",24-Mar,MMLU=81.3. Context=128k.,https://grok.x.ai/
+Jamba,AI21,MoE,52,5000,97:01:00,1.7,"Wikipedia, books, common crawl",24-Mar,"MMLU=67.4. MoE. Open weights, licensed under Apache 2.0. Announce: https://arxiv.org/abs/2403.19887",https://huggingface.co/ai21labs/Jamba-v0.1
+DBRX,MosaicML,MoE,132,12000,91:01:00,4.2,"Wikipedia, books, common crawl",24-Mar,"MMLU=73.7. MoE. Trained for $10M on 3,072 NVIDIA H100s connected by 3.2Tbps Infiniband.",https://huggingface.co/spaces/databricks/dbrx-instruct
+Stable Code Instruct 3B,Stability AI,Dense,2.7,560,208:01:00,0.1,"Wikipedia, books, common crawl",24-Mar,"Context window=16,384. Trained on The Stack dataset.",https://huggingface.co/stabilityai/stable-code-instruct-3b
+EvoLLM-JP,Sakana AI,Dense,10,800,80:01:00,0.3,"Wikipedia, books, common crawl",24-Mar,"Japanese. Model merge 'our EvoLLM-JP-A is a merge of shisa-gamma-7b-v1, Arithmo2-Mistral-7B, and Abel7B-002' https://sakana.ai/evolutionary-model-merge/ ",https://huggingface.co/SakanaAI/EvoLLM-JP-v1-10B
+RakutenAI-7B,Rakuten Group,Dense,7,3000,429:01:00,0.5,"Wikipedia, books, common crawl",24-Mar,Japanese. MMLU=61.31. Mistral 7B derivative.,https://huggingface.co/Rakuten/RakutenAI-7B
+Parakeet,Independent,Dense,0.378,3,8:01,0,"Wikipedia, books, common crawl",24-Mar,Tiny model (378M) for testing,https://colab.research.google.com/drive/1gI8CM9Bz9ov0-E6aL2jF808rE56UtZyF?usp=sharing
+RWKV-v5 EagleX,RWKV,Dense,7.52,1700,227:01:00,0.4,"Wikipedia, books, common crawl",24-Mar,MMLU=40.14. Built on the RWKV-v5 architecture (a linear transformer with 10-100x+ lower inference cost),https://huggingface.co/recursal/EagleX_1-7T
+MM1,Apple,Dense,30,2010,67:01:00,0.8,"Wikipedia, books, common crawl",24-Mar,"VLM, outperforms Flamingo 80B (Apr/2022) across benchmarks. 2T text tokens + ~10B+ other text (estimate). Unreleased.",
+RFM-1,Covariant,Dense,8,160,20:01,0.1,"Wikipedia, books, common crawl",24-Mar,"Commercial, multimodal for robotics",https://vimeo.com/921866765
+Command-R,Cohere,Dense,35,700,20:01,0.5,"Books, common crawl",24-Mar,RAG and tool use,Cohere
+DeepSeek-VL,DeepSeek-AI,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",24-Mar,"Vision, based on DeepSeek-LLM-7B",https://github.com/deepseek-ai/DeepSeek-VL?tab=readme-ov-file
+AnyGPT,Fudan University,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",24-Mar,Llama 2 7B backbone with new matrices ('reshaping the embedding matrix and prediction layer'),https://junzhan2000.github.io/AnyGPT.github.io/
+Stable Beluga 2.5,Stability AI,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",24-Mar,"Mentioned in Stability release about Intel chips 11/Mar/2024, availablity unknown",
+Inflection-2.5,Inflection AI,Dense,1200,20000,17:01,16.3,"Wikipedia, books, common crawl",24-Mar,"MMLU=85.5, GPQA=38.4",https://inflection.ai/inflection-2
+Apollo,SRIBD/CUHK,Dense,7,2500,358:01:00,0.4,"Wikipedia, books, common crawl",24-Mar,Qwen 1.8B as base. Medical focus.,https://apollo.llmzoo.com/
+Claude 3 Opus,Anthropic,Dense,2000,40000,20:01,29.8,"Wikipedia, books, common crawl",24-Mar,"MMLU=86.8 (GPT-4=86.4). 200k context, 1M for researchers.",https://claude.ai/
+Hawk,Google DeepMind,Dense,7,300,43:01:00,0.2,"Wikipedia, books, common crawl",24-Feb,MMLU=35. RNN.,
+Griffin,Google DeepMind,Dense,14,300,22:01,0.2,"Wikipedia, books, common crawl",24-Feb,MMLU=49.5. RNN.,
+BitNet b1.58,Microsoft,Dense,70,2000,,1.2,"Wikipedia, books, common crawl",24-Feb,,https://huggingface.co/1bitLLM/bitnet_b1_58-xl
+Samba-1,SambaNova,CoE,1400,20000,15:01,17.6,"Wikipedia, books, common crawl",24-Feb,CoE: Collection of experts: Llama2 7B / 13B / 70B Mistral 7B DeepSeek Coder 1.3B / 6.7B / 33B Falcon 40B DePlot CLIP Llava,https://trysambanova.ai/
+Cosmo-1B,HF,Dense,1.8,180,100:01:00,0.1,Synthetic data,24-Feb,Synthetic data (25B tokens of synthetic data for 6 epochs + code). MMLU=32.4,https://huggingface.co/HuggingFaceTB/cosmo-1b
+Poro,Silo AI,Dense,34.2,1000,30:01:00,0.6,"Wikipedia, books, common crawl",24-Feb,"uses a BLOOM architecture with ALiBi embeddings to allow for context window extrapolation. While model architecture for the initial model has been kept simple, future models under progress will support additional capabilities, such as flash attention, rotary embeddings and grouped query attention.'",https://huggingface.co/LumiOpen/Poro-34B
+StarCoder 2,HF/ServiceNow,Dense,15,4300,287:01:00,0.8,"Wikipedia, books, common crawl",24-Feb,"The Stack v2=900B tokens, 5 epochs to 4.3T tokens",
+530B,ByteDance,Dense,530,300,1:01,1.3,"Wikipedia, books, common crawl",24-Feb,"Trained using 12,288 A100 GPUs, replicating MT-NLG size",
+175B,ByteDance,Dense,175,300,2:01,0.8,"Wikipedia, books, common crawl",24-Feb,"Trained using 12,288 A100 GPUs, replicating GPT-3 size",
+Mistral Small,Mistral,Dense,7,3000,429:01:00,0.5,"Wikipedia, books, common crawl",24-Feb,MMLU=72.2. Optimised for latency and cost.,https://chat.mistral.ai/chat
+Mistral Large,Mistral,Dense,300,8000,27:01:00,5.2,"Wikipedia, books, common crawl",24-Feb,"MMLU=81.2 (same as Flan-PaLM 2 340B, higher than PaLM 2 340B MMLU=78.3), 32k context window. API only (not open source).",https://poe.com/Mistral-Large
+Hanooman,Reliance,Dense,40,,,,"Wikipedia, books, common crawl",24-Feb,"11 Indian languages like Hindi, Tamil, and Marathi",
+Ask,Apple,Dense,20,,,,"Wikipedia, books, common crawl",24-Feb,Internal employee model only,
+Reka Edge,Reka AI,Dense,7,4500,643:01:00,0.6,"Wikipedia, books, common crawl",24-Feb,MMLU=63.1,https://chat.reka.ai/
+Reka Flash,Reka AI,Dense,21,5000,239:01:00,1.1,"Wikipedia, books, common crawl",24-Feb,"MMLU=73.5, but my testing shows very poor performance equiv with tiny model",https://poe.com/RekaFlash
+Gemma,Google DeepMind,Dense,7,6000,858:01:00,0.7,"Wikipedia, books, common crawl",24-Feb,"MMLU=64.3 (Llama 2 70B=68.9, ChatGPT 20B=70). Text only. Probably dense. Largest trained dataset (6T) besides frontier models.",https://labs.pplx.ai/
+Gemini 1.5 Pro,Google DeepMind,MoE,1500,30000,20:01,22.4,"Wikipedia, books, common crawl",24-Feb,MMLU=85.9 (May/2024). Sparse MoE. Context window=1M and 10M for research,https://aistudio.google.com/app/prompts/new_chat
+Qwen-1.5 72B,Alibaba,Dense,72,3000,42:01:00,1.5,"Wikipedia, books, common crawl",24-Feb,MMLU=77.5,https://huggingface.co/spaces/Qwen/Qwen1.5-72B-Chat
+GOODY-2,BRAIN,Dense,,,,,"Wikipedia, books, common crawl",24-Feb,Satire (and hilarious). Probably Llama 2 with aggressive prompt. Wired interview: https://archive.md/toxHq,https://www.goody2.ai/chat
+Natural-SQL-7B,ChatDB,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",24-Feb,Based on DeepSeek-Coder 6.7B.,
+Sea-Lion,AI Singapore,Dense,7.5,980,131:01:00,0.3,"Wikipedia, books, common crawl",24-Feb,"MPT base. MMLU=26.87. Southeast Asian languages like Thai, Vietnamese and Bahasa Indonesia. https://www.computerweekly.com/feature/Sea-Lion-explained-Southeast-Asias-first-large-language-model",https://aisingapore.org/aiproducts/sea-lion/
+TimesFM,Google,Dense,0.2,100,500:01:00,0,"Wikipedia, books, common crawl",24-Feb,Time-series forecasting only. 'a large pretraining corpus of 100B real world time-points' may be more than 100B tokens.,
+OLMo,Allen AI,Dense,7,2500,358:01:00,0.4,"Wikipedia, books, common crawl",24-Feb,Open Language Model (OLMo),https://huggingface.co/allenai/OLMo-7B
+FLOR-6.3B,Cerebras,Dense,6.3,481,77:01:00,0.2,"Wikipedia, books, common crawl",24-Jan,"Spanish, Catalan. Bloom-7.1B (341B tok) + continued pre-training on 140B tok. Trained on Cerebras hardware.",https://huggingface.co/projecte-aina/FLOR-6.3B
+Weaver,AIWaves.cn,Dense,34,2018,60:01:00,0.9,Books,24-Jan,Llama? 'All Weaver models are initialized from powerful open-source LLMs.' English waitlist: https://www.wawawriter.com/en/,https://www.wawawriter.com/
+miqu 70b,Mistral,Dense,70,3000,43:01:00,1.5,"Wikipedia, books, common crawl",24-Jan,"Leaked, proper version soon: https://venturebeat.com/ai/mistral-ceo-confirms-leak-of-new-open-source-ai-model-nearing-gpt-4-performance/",https://huggingface.co/miqudev/miqu-1-70b
+iFlytekSpark-13B,iFlyTek,Dense,13,3000,231:01:00,0.7,"Wikipedia, books, common crawl",24-Jan,"MMLU=63.02. 'pre-trained on a massive high-quality data set with a total of more than 3 trillion tokens, and then fine-tuned on fine-tuned diversified alignment data.'",https://gitee.com/iflytekopensource/iFlytekSpark-13B
+Xinghuo 3.5 (Spark),iFlyTek,Dense,200,4000,20:01,3,"Wikipedia, books, common crawl",24-Jan,GPT-4 competitor. https://www.shine.cn/biz/tech/2401304331/,
+MGIE,Apple,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",24-Jan,MLLM and diffusion model initialized from LLaVA-7B (Llama 2 + Vicuna) + StableDiffusion-v1.5.,https://github.com/tsujuifu/pytorch_mgie
+CodeLlama-70B,Meta AI,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",24-Jan,Paper link is to 34B from Aug/2023. This 70B model finished training Jan/2024.,https://huggingface.co/codellama/CodeLlama-70b-hf
+RWKV-v5 Eagle 7B,RWKV,Dense,7.52,1100,147:01:00,0.3,"Wikipedia, books, common crawl",24-Jan,"MMLU=33.21. Built on the RWKV-v5 architecture (a linear transformer with 10-100x+ lower inference cost), Trained on 1.1 Trillion Tokens across 100+ languages. Original paper: https://arxiv.org/abs/2305.13048",https://huggingface.co/spaces/BlinkDL/RWKV-Gradio-2
+MaLA-500,LMU,Dense,10,2000,200:01:00,0.5,"Wikipedia, books, common crawl",24-Jan,Extends Llama 2 7B to 10B using 534 languages.,https://huggingface.co/MaLA-LM/mala-500
+MambaByte,Cornell,Dense,0.972,37.5,39:01:00,0,Special,24-Jan,"Used bytes instead of tokens. 4 bytes≈1 token, so 150B bytes≈37.5B tokens",https://github.com/kyegomez/MambaByte
+DeepSeek-Coder,DeepSeek-AI,Dense,33,2000,61:01:00,0.9,"Wikipedia, books, common crawl",24-Jan,surpasses existing closed-source models like Codex and GPT-3.5... permissive license that allows for both research and unrestricted commercial use.',https://coder.deepseek.com/
+FuseLLM,Tencent,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",24-Jan,"Fusion of Llama-2-7B (2T tok), OpenLLaMA-7B (2T tok), and MPT-7B (1T tok).",https://github.com/fanqiwan/FuseLLM
+Fuyu-Heavy,Adept,Dense,120,5000,42:01:00,2.6,"Wikipedia, books, common crawl",24-Jan,"Fuyu-Heavy is the world’s third-most-capable multimodal model, behind only GPT4-V and Gemini Ultra, which are 10-20 times bigger.' Token estimate is based on Adept Persimmon-8B using many more tokens.",
+GLM-4,Zhipu AI (Tsinghua),Dense,200,4000,20:01,3,"Wikipedia, books, common crawl",24-Jan,Best Chinese model to date based on analysis. Follows OpenAI roadmap. MMLU=81.5. 'hundreds of billions of parameters' https://www.chatglm.cn/ ,https://open.bigmodel.cn/
+DeepSeekMoE,DeepSeek-AI,MoE,16,2000,125:01:00,0.6,"Wikipedia, books, common crawl",24-Jan,"MoE activated parameters is 10-15% of dense, so I need to rethink ALScore for MoE. 'preliminary efforts to scale up DeepSeekMoE to 145B'",
+DeepSeek,DeepSeek-AI,Dense,67,2000,30:01:00,1.2,"Wikipedia, books, common crawl",24-Jan,Chinese/English. Outperforms Llama 2. MMLU=71.3 outperforms GPT-3.5.,https://chat.deepseek.com/
+LLaMA Pro,Tencent,Dense,8.3,2080,251:01:00,0.4,"Wikipedia, books, common crawl",24-Jan,We pre-train LLAMA PRO’s expanded blocks on 80B tokens using open-source code and math data for 2830 GPU Hours (16 NVIDIA H800 GPUs for about 7 days).,https://huggingface.co/TencentARC/LLaMA-Pro-8B
+TinyLlama,SUTD/Independent,Dense,1.1,3000,"2,728:1",0.2,"Wikipedia, books, common crawl",24-Jan,"Overtrained' using 2,727 tokens per parameter. Dataset was 1T: 3 epochs to 3T seen. Singapore",https://github.com/jzhang38/TinyLlama
+DocLLM,JPMorgan,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",24-Jan,Document spatial layout structure.,
+Unified-IO 2,Allen AI,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-Dec,"600TB dataset (plus 120+ fine-tuning datasets) includes '1B imagetext pairs, 1T text tokens, 180M video clips, 130M interleaved image & text, 3M 3D assets, and 1M agent trajectories.'",https://unified-io-2.allenai.org/
+WaveCoder-DS-6.7B,Microsoft,Dense,6.7,,,,"Wikipedia, books, common crawl",23-Dec,"To obtain WaveCoder models, We choose StarCoder-15B, CodeLLaMa (7B and 13B), DeepseekCoder-6.7B as the base model and fine-tune all the base model for 3 epochs",
+YunShan,Huawei,Dense,7,1748,250:01:00,0.4,"Wikipedia, books, common crawl",23-Dec,Finance + law fine-tune of PanGu-π,
+PanGu-Pi,Huawei,Dense,7,1600,229:01:00,0.4,"Wikipedia, books, common crawl",23-Dec,"Dense, named PanGu-π",
+YAYI 2,Wenge,Dense,30,2650,89:01:00,0.9,"Wikipedia, books, common crawl",23-Dec,MMLU=80.5. Dataset=240TB filtered to 10.6TB for 2.65T tokens,https://huggingface.co/wenge-research/yayi2-30b
+Emu2,BAAI,Dense,37,4,1:01,0,"Wikipedia, books, common crawl",23-Dec,"VLM. Gemini clone. Outperforms Flamingo 80B. The Pile for text, but only sampled 3.6B tokens (1.4% of the dataset).",https://baaivision.github.io/emu2/
+MedLM,Google DeepMind,Dense,,,,,"Wikipedia, books, common crawl",23-Dec,Available to 'white-listed' orgs only.,https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/medlm
+SOLAR-10.7B,Upstage AI,Dense,10.7,,,,"Wikipedia, books, common crawl",23-Dec,South Korean. Llama-2 arch. SOTA for its size (Dec/2023).,https://huggingface.co/upstage/SOLAR-10.7B-v1.0
+DeciLM-7B,Deci,Dense,7.04,200,29:01:00,0.1,"Wikipedia, books, common crawl",23-Dec,4.4x times faster than Mistral. English only.,https://console.deci.ai/infery-llm-demo
+Mistral-medium,Mistral,Dense,180,3500,20:01,2.6,"Wikipedia, books, common crawl",23-Dec,"MMLU=75.3% (GPT-3.5-turbo 20B=70%, Llama 2 70B=68.9%)",https://poe.com/
+mixtral-8x7b-32kseqlen,Mistral,MoE,46.7,8000,172:01:00,2,"Wikipedia, books, common crawl",23-Dec,"MoE=7Bx8, aka mistral-small. 'Concretely, Mixtral has 45B total parameters but only uses 12B parameters per token. It, therefore, processes input and generates output at the same speed and for the same cost as a 12B model.'",https://www.together.ai/blog/mixtral
+StripedHyena 7B,Together,Dense,7.65,,,,"Wikipedia, books, common crawl",23-Dec,"RedPajama (C4), new arch beyond just Transformers",https://api.together.xyz/playground/language/togethercomputer/StripedHyena-Hessian-7B
+NexusRaven-V2 13B,Nexusflow.ai ,Dense,,,,,"Wikipedia, books, common crawl",23-Dec,Based on CodeLlama. 'surpasses GPT-4 by up to 7% in function calling success rates in human-generated use cases involving nested and composite functions.',https://huggingface.co/spaces/Nexusflow/NexusRaven-V2-Demo
+Gemini Ultra 1.0,Google DeepMind,Dense,1500,30000,20:01,22.4,"Wikipedia, books, common crawl",23-Dec,"Chinchilla (20:1), dense, maybe 600B-2000T.",https://deepmind.google/technologies/gemini/
+Mamba,CMU,Dense,2.8,300,108:01:00,0.1,"Wikipedia, books, common crawl",23-Dec,"The Pile, new arch beyond just Transformers",https://huggingface.co/havenhq/mamba-chat
+LVM-3B,Berkeley/JHU,Dense,3,420,140:01:00,0.1,"Wikipedia, books, common crawl",23-Dec,Paper is 25MB. First Large Vision Model (LVM); no text. Based on Llama and LAION 5B (1.49B).,
+SeaLLM-13b,Alibaba,Dense,13,2000,154:01:00,0.5,"Wikipedia, books, common crawl",23-Dec,"Llama 2 for Southeast Asian (SEA) languages: Vietnamese 🇻🇳, Indonesian 🇮🇩, Thai 🇹🇭, Malay 🇲🇾, Khmer🇰🇭, Lao🇱🇦, Tagalog🇵🇭 and Burmese🇲🇲",https://github.com/damo-nlp-sg/seallms
+pplx-70b-online,Perplexity,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Nov,Web access. Higher 'freshness' and 'truth' scores.,https://labs.perplexity.ai/
+SeamlessM4T-Large v2,Meta AI,Dense,2.3,,,,"Wikipedia, books, common crawl",23-Nov,Based on NLLB and older models. https://github.com/facebookresearch/seamless_communication,https://seamless.metademolab.com/expressive/
+Q-Transformer,Google DeepMind,Dense,,,,,"Wikipedia, books, common crawl",23-Nov,"Robotics, builds on RT-1",https://qtransformer.github.io/
+Yuan 2.0,IEIT,Dense,102.6,288,3:01,0.6,"Wikipedia, books, common crawl",23-Nov,"Chinese + EN dataset include The Pile: DM, arxiv, wikipedia, book3, stack exchange, Freelaw and medical ",https://github.com/IEIT-Yuan/Yuan-2.0/blob/main/README-EN.md
+MEDITRON,EPFL,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Nov,"Llama 2 trained on med data using NVIDIA Megatron-LM. ""outperforms Llama-2-70B, GPT-3.5 (text-davinci-003, 8-shot), and Flan-PaLM on multiple medical reasoning tasks.""",https://huggingface.co/epfl-llm/meditron-70b
+Transformers-Arithmetic,Microsoft,Dense,0.1,0.3,3:01,0,Reddit,23-Nov,Proving maths is not memorized. Uses GPT-2-style model. Sébastien Bubeck,
+Starling-7B,Berkeley,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",23-Nov,Llama 2 7B -> OpenChat 7B -> Starling-7B (RLAIF),https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha
+Inflection-2,Inflection AI,Dense,1200,20000,17:01,16.3,"Wikipedia, books, common crawl",23-Nov,"“now the 2nd best LLM in the world”. Finished training 19/Nov/2023, waiting for fine-tuning and release.",https://inflection.ai/inflection-2
+Claude 2.1,Anthropic,Dense,130,2500,20:01,1.9,"Wikipedia, books, common crawl",23-Nov,"Less hallucinations, 200k context length, tool use",https://claude.ai/
+TÜLU 2,Allen AI,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Nov,Llama 2 finetune with RLHF direct preference optimization (DPO).,https://huggingface.co/allenai/tulu-2-dpo-70b
+Orca 2,Microsoft,Dense,13,2001,154:01:00,0.5,"Wikipedia, books, common crawl",23-Nov,"Llama 2 13B (2T) -> Orca 2 (GPT-4 finetune). Still an imitation model, overhyped: The False Promise of Imitating Proprietary LLMs https://arxiv.org/abs/2305.15717 ",
+Phi-2,Microsoft,Dense,2.7,1400,519:01:00,0.2,Synthetic data,23-Nov,https://twitter.com/SebastienBubeck/status/1724854157004190095,https://replicate.com/lucataco/phi-2
+Florence-2,Microsoft,Dense,0.771,,,,"Wikipedia, books, common crawl",23-Nov,VLM,
+Mirasol3B,Google DeepMind,Dense,3,,,,"Wikipedia, books, common crawl",23-Nov,Combiner + autoregressive transformer for video/audio/text,
+OtterHD-8B,NTU,Dense,8,737,93:01:00,0.3,"Wikipedia, books, common crawl",23-Nov,Evolution of Persimmon-9.3B and Fuyu 8B,https://github.com/Luodian/Otter
+Gauss,Samsung,Dense,7?,,,,,23-Nov,"Gauss Language specializing in generating texts, Gauss Code on software and code description and Gauss Image for image creation.  ",https://koreajoongangdaily.joins.com/news/2023-11-08/business/tech/Samsung-unveils-generative-AI-model-Gauss/1908889
+Grok-1,xAI,Dense,314,6000,20:01,4.6,"Wikipedia, books, common crawl",23-Nov,Context window=8192. UI: https://twitter.com/TobyPhln/status/1721053802235621734 ,https://grok.x.ai/
+Grok-0,xAI,Dense,33,2000,61:01:00,0.9,"Wikipedia, books, common crawl",23-Nov,"Announced Nov/2023, trained Jul/2023",https://grok.x.ai/
+Yi-34B,01-ai,Dense,34.4,3000,88:01:00,1.1,"Wikipedia, books, common crawl",23-Nov,Controversy about Llama 2 base. https://twitter.com/kaifulee/status/1724673131875377465 MMLU=76.3 (PaLM 2=78.3) Outperforms Llama 2. Chinese and English. https://www.bloomberg.com/news/articles/2023-11-05/kai-fu-lee-s-open-source-01-ai-bests-llama-2-according-to-hugging-face,https://huggingface.co/01-ai/Yi-34B
+GPT-4 Turbo,OpenAI,MoE,,,,,"Wikipedia, books, common crawl",23-Nov,https://openai.com/blog/new-models-and-developer-products-announced-at-devday,https://chat.openai.com/
+Kimi Chat,Moonshot AI,Dense,100,2000,20:01,1.5,"Wikipedia, books, common crawl",23-Oct,Chinese. Long context. No paper.,https://kimi.moonshot.cn/
+jina-embeddings-v2,Jina AI,Dense,0.435,,,,Comon crawl,23-Oct,Alternative to text-embedding-ada-002. Related v1 paper: https://arxiv.org/abs/2307.11224,https://huggingface.co/jinaai/jina-embeddings-v2-base-en
+Fuyu,Adept,Dense,8,,,,"Wikipedia, books, common crawl",23-Oct,"VLM. 8B available under open licence, Medium size is closed",https://huggingface.co/adept/fuyu-8b
+ERNIE 4.0,Baidu,Dense,1000,20000,,14.9,"Wikipedia, books, common crawl",23-Oct,Dense (confirmed). English-dubbed launch video (2h52m): https://twitter.com/i/broadcasts/1yNGaZaeallJj & https://youtu.be/wYozcsavRuM ,https://yiyan.baidu.com/
+Zephyr,Hugging Face H4,Dense,7.3,800,110:01:00,0.3,"Wikipedia, books, common crawl",23-Oct,Mistral with 'aligned' data removed from dataset,https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha
+PaLI-3,Google DeepMind,Dense,5,,,,Comon crawl,23-Oct,VLM. Next iteration of PaLI via Pathways. https://lifearchitect.ai/pathways/,
+Retro 48B,NVIDIA,Dense,48,1200,25:01:00,0.8,"Wikipedia, books, common crawl",23-Oct,the largest LLM pretrained with retrieval before instruction tuning.',
+Ferret,Apple,Dense,13,2000,154:01:00,0.5,"Wikipedia, books, common crawl",23-Oct,"Vicuna base, multimodal",https://github.com/apple/ml-ferret
+Lemur,XLANG Lab,Dense,70,2090,30:01:00,1.3,"Wikipedia, books, common crawl",23-Oct,https://arxiv.org/abs/2310.06830,https://github.com/OpenLemur/Lemur
+AceGPT,KAUST/Shenzhen,Dense,13,2010,155:01:00,0.5,"Wikipedia, books, common crawl",23-Oct,Arabic. Llama 2 + RLAIF,https://huggingface.co/FreedomIntelligence/AceGPT-13B
+Yasa-1,Reka AI,Dense,,,,,Special,23-Oct,"Multi-modal. No public arch info. Researchers from DeepMind, Google, Baidu and Meta building enterprise models",https://reka.ai/announcing-our-multimodal-ai-assistant/
+RT-X,Google DeepMind,Dense,55,,,,Special,23-Oct,"Robotics using UL2. 'RT-1 model trained using the robotic data mixture as RT-1-X, and the RT-2 model trained using the robotic data mixture as RT-2-X.'",https://robotics-transformer-x.github.io/
+MotionLM,Waymo,Dense,0.09,,,,Special,23-Sep,LLM for autonomous vehicle forecasting. https://youtu.be/jrMMNmN21I8?t=1560,
+GAIA-1,Wayve,Dense,9,,,,Special,23-Sep,"World model, generates video. Uses T5-large 770M for language + all vision parameters",https://wayve.ai/thinking/scaling-gaia-1/
+Qwen,Alibaba,Dense,72,3000,42:01:00,1.5,"Wikipedia, books, common crawl",23-Sep,Chinese. Full name is 'Tongyi Qianwen' 通义千问. 'Lags behind both GPT-3.5 and GPT-4'. Originally 7B/14B params Apr/2023,https://huggingface.co/Qwen
+Llama 2 Long,Meta AI,Dense,70,2400,35:01:00,1.4,"Wikipedia, books, common crawl",23-Sep,"Unreleased to date. Context window=32,768 tokens (compare to Llama 2=4096 tokens)",
+LeoLM,Hessian AI/LAION,Dense,13,2065,159:01:00,0.5,"Wikipedia, books, common crawl",23-Sep,Llama 2 'extended' and pretrained on 2000B Llama 2 tokens + 65B tokens of German,https://huggingface.co/LeoLM/leo-hessianai-13b
+Mistral 7B,Mistral,Dense,7.3,800,110:01:00,0.3,"Wikipedia, books, common crawl",23-Sep,"Apache 2.0, Sliding Window Attention (SWA) to handle longer sequences at smaller cost",https://huggingface.co/mistralai
+Kosmos-2.5,Microsoft,Dense,1.3,,,,"Wikipedia, books, common crawl",23-Sep,,
+Baichuan 2,Baichuan,Dense,13,2600,200:01:00,0.6,"Wikipedia, books, common crawl",23-Sep,Great paper. Chinese-English bilingual dataset,https://github.com/baichuan-inc/Baichuan2/blob/main/README_EN.md
+BOLT2.5B,ThirdAI,Dense,2.5,40,16:01,0,Comon crawl,23-Sep,CPU trained,https://huggingface.co/spaces/thirdai/BOLT2.5B
+DeciLM,Deci,Dense,5.7,200,36:01:00,0.1,"Wikipedia, books, common crawl",23-Sep,Faster inference (4.8× throughput of Llama 2),https://huggingface.co/Deci/DeciLM-6b
+MoLM,IBM,MoE,8,300,38:01:00,0.2,"Wikipedia, books, common crawl",23-Sep,ModuleFormer is based on the Sparse Mixture of Experts (MoE).,https://github.com/ibm/moduleformer
+NExT-GPT,Singapore,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-Sep,Multimodal. Vicuna 7B + other modalities,https://next-gpt.github.io/
+Phi-1.5,Microsoft,Dense,1.3,150,116:01:00,0,Books,23-Sep,Textbooks only. 30B-token dataset,https://huggingface.co/microsoft/phi-1_5
+UniLM,Apple,Dense,0.034,1,30:01:00,0,Special,23-Sep,Apple's Transformer model for iOS 17 + macOS Sonoma. Announce is actually Jun/2023. GPT-2 base? 128 token context window,https://jackcook.com/2023/09/08/predictive-text.html
+Persimmon-8B,Adept,Dense,8,737,93:01:00,0.3,"Wikipedia, books, common crawl",23-Sep,Open Apache license and publicly accessible weights. ,https://www.adept.ai/blog/persimmon-8b
+FLM-101B,BAAI,Dense,101,245,3:01,0.5,"Wikipedia, books, common crawl",23-Sep,Train for $100k compute budget (on a cluster of 24 DGX-A800 GPU 8×80G servers for 21 days),https://huggingface.co/CofeAI/FLM-101B
+Falcon 180B,TII,Dense,180,3500,20:01,2.6,"Wikipedia, books, common crawl",23-Sep,MMLU=70.6. Major milestone for open source models (largest open dense model to date).,https://huggingface.co/spaces/tiiuae/falcon-180b-demo
+Hunyuan,Tencent,Dense,100,2000,20:01,1.5,"Wikipedia, books, common crawl",23-Sep,,https://www.tencent.com/en-us/articles/2201685.html
+phi-CTNL,Independent,Dense,0.1,0.01,1:01,0,"Wikipedia, books, common crawl",23-Sep,Satire. MMLU=100. 'phi-CTNL (pronounced “fictional”) that achieves perfect results across diverse academic benchmarks',
+Jais,Inception,Dense,13,395,31:01:00,0.2,"Wikipedia, books, common crawl",23-Aug,"Arabic, trained in Abu Dhabi, UAE using Cerebras.",https://huggingface.co/inception-mbzuai
+Code Llama 34B,Meta AI,Dense,34,2600,77:01:00,1,"Wikipedia, books, common crawl",23-Aug,"Outperforms GPT-3.5. Initial Llama 2 (2T tokens) trained on 500B tokens of code, 100B tokens of python",https://github.com/facebookresearch/codellama
+IDEFICS,Hugging Face,Dense,80,,,,"Wikipedia, books, common crawl",23-Aug,Clone of Flamingo using Llama-1 65B. Named after Asterix and Obelix's dog Idefix (Image-aware Decoder Enhanced à la Flamingo with Interleaved Cross-attentionS),https://huggingface.co/spaces/HuggingFaceM4/idefics_playground
+Raven,UI/NVIDIA,Dense,11,40,4:01,0.1,"Wikipedia, books, common crawl",23-Aug,RAG Atlas,
+DukunLM,AzaleAI,Dense,13,1500,116:01:00,0.5,"Wikipedia, books, common crawl",23-Aug,Indonesian fine-tune of WizardLM (which is a Llama fine-tune).,https://huggingface.co/azale-ai/DukunLM-13B-V1.0-Uncensored
+WizardLM,Microsoft,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Aug,Assume Llama-2 fine-tune. Outperforms text-davinci-003. May merge this entry with the Apr/2023 7B release,https://huggingface.co/WizardLM/WizardLM-70B-V1.0
+Platypus,Boston University,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Aug,"Fine-tune of Llama 2, family includes merges with Beluga, Dolphin, and Camel fine-tunes.",https://platypus-llm.github.io/
+Japanese StableLM Alpha 7B,Stability AI,Dense,7,750,108:01:00,0.2,"Wikipedia, books, common crawl",23-Aug,Best-performing openly available language model for Japanese speakers.,https://huggingface.co/stabilityai/japanese-stablelm-base-alpha-7b
+Stable Code 3B,Stability AI,Dense,2.7,560,208:01:00,0.1,Special,23-Aug,"Context window=16,384. Trained on The Stack dataset.",https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k
+Med-Flamingo,Stanford,Dense,8.3,1000,121:01:00,0.3,"Wikipedia, books, common crawl",23-Jul,"Uses LAION OpenFlamingo 9B, based on LLaMA-7B text + 1.3B vision",https://github.com/snap-stanford/med-flamingo
+Alfred-40B-0723,LightOn,Dense,40,1000,25:01:00,0.7,"Wikipedia, books, common crawl",23-Jul,First finetuned version of Falcon with RLHF. Enterprise: https://www.lighton.ai/paradigm,https://huggingface.co/lightonai/alfred-40b-0723
+LLaMA-2-7B-32K,Together,Dense,7,2000,286:01:00,0.4,"Wikipedia, books, common crawl",23-Jul,32k context window instead of 4k (Llama 2),https://huggingface.co/togethercomputer/LLaMA-2-7B-32K
+Med-PaLM M,Google DeepMind,Dense,540,780,2:01,2.2,"Wikipedia, books, common crawl",23-Jul,Uses PaLM 1. Already outperformed by Med-PaLM 2. Med-PaLM Multimodal (Med-PaLM M).,
+BTLM-3B-8K,Cerebras,Dense,3,627,209:01:00,0.1,"Wikipedia, books, common crawl",23-Jul,"Runs on devices with as little as 3GB of memory [iPhone, Macbook] when quantized to 4-bit",https://huggingface.co/cerebras/btlm-3b-8k-base
+Stable Beluga 2,Stability AI,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Jul,Fine-tuned Llama 2. Non-commercial use license. Codename was FreeWilly2,https://huggingface.co/stabilityai/FreeWilly2
+Stable Beluga 1,Stability AI,Dense,65,1400,22:01,1,"Wikipedia, books, common crawl",23-Jul,Fine-tuned LLaMA-1. Non-commercial use license. Codename was FreeWilly1,https://huggingface.co/stabilityai/FreeWilly1-Delta-SafeTensor
+Meta-Transformer,Shanghai AI Laboratory/CUHK,Dense,2,,,,"Wikipedia, books, common crawl",23-Jul,"Proto-AGI. 12 modalities (text, image, point cloud, audio, video, infrared, hyperspectral, X-ray, time-series, tabular, Inertial Measurement Unit (IMU), and graph data).",https://github.com/invictus717/MetaTransformer
+Llama 2,Meta AI,Dense,70,2000,29:01:00,1.2,"Wikipedia, books, common crawl",23-Jul,"Context window=4096. MMLU=68.9 (GPT-3.5=70.0, GPT-4=86.4)",https://www.llama2.ai/
+WormGPT,(Undisclosed),Dense,6,402,67:01:00,0.2,"Wikipedia, books, common crawl",23-Jul,GPT-J (2021) finetune/module.,
+Claude 2,Anthropic,Dense,130,2500,20:01,1.9,"Wikipedia, books, common crawl",23-Jul,"More HHH, 200k context length",https://claude.ai/
+LongLLaMA,IDEAS/DeepMind,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-Jul,256k context length,https://github.com/CStanKonrad/long_llama
+xTrimoPGLM,Tsinghua,Dense,100,1000,10:01,1.1,Special,23-Jul,Protein language model,
+XGen,Salesforce,Dense,7,1500,215:01:00,0.3,"Wikipedia, books, common crawl",23-Jul,8K sequence length. Released under Apache-2.0.,https://github.com/salesforce/xgen
+Zhinao (Intellectual Brain),360,Dense,100,2000,20:01,1.5,"Wikipedia, books, common crawl",23-Jul,,https://ai.360.com/
+Yasa,Reka AI,Dense,,,,,,23-Jun,"No public arch info. Researchers from DeepMind, Google, Baidu and Meta building enterprise models",https://reka.ai/product/
+Kosmos-2,Microsoft,Dense,1.6,360,225:01:00,0.1,"Wikipedia, books, common crawl",23-Jun,Proto-AGI. Multimodal large language model (MLLM).  a multimodal large language model with grounding capability built upon KOSMOS-1,https://44e505515af066f4.gradio.app/
+AudioPaLM,Google,Dense,340,3600,11:01,3.7,"Wikipedia, books, common crawl",23-Jun,a unified multimodal architecture that can process and generate text and speech with applications including speech recognition and speech-to-speech translation,https://google-research.github.io/seanet/audiopalm/examples/
+Inflection-1,Inflection AI,Dense,120,2000,17:01,1.6,"Wikipedia, books, common crawl",23-Jun,"Comparable with benchmarking results from InternLM 104B, 1-2% better. ‘Inflection-1 was trained using thousands of NVIDIA H100 GPUs on a very large dataset.’",https://docs.google.com/forms/d/e/1FAIpQLScM9Iz1KzaRlfgDrYrldoPDnXbhO5LW3-hqmQCd56YpheEN7g/viewform
+Phi-1,Microsoft,Dense,1.3,51,40:01:00,0,Books,23-Jun,"Code model. ‘breaking existing scaling laws by training a 1.3B-parameter model, which we call phi-1, for roughly 8 passes over 7B tokens (slightly over 50B total tokens seen) followed by finetuning on less than 200M tokens.’",
+InternLM,Shanghai AI Laboratory/SenseTime,Dense,104,1600,16:01,1.4,"Wikipedia, books, common crawl",23-Jun,"Outperforms ChatGPT, LLaMA on RACE-h, Chinese + English",https://internlm-org.translate.goog/?_x_tr_sl=zh&_x_tr_tl=en
+BlenderBot 3x,Meta AI,Dense,175,300,2:01,0.8,"Wikipedia, books, common crawl",23-Jun,OPT-175B with new dialogue data,https://parl.ai/projects/bb3x/
+Orca,Microsoft,Dense,13,1000,77:01:00,0.4,"Wikipedia, books, common crawl",23-Jun,"LLaMA -> Vicuna -> Orca (GPT-4 finetune). Still an imitation model, overhyped: The False Promise of Imitating Proprietary LLMs https://arxiv.org/abs/2305.15717 ",https://aka.ms/orca-lm
+PassGPT,ETH Zürich,Dense,,,,,Special,23-Jun,GPT-2 trained on leaked passwords,
+DIDACT,Google DeepMind,Dense,,37900,,,Special,23-Jun,Iterative coding model trained on Google's monorepo. Jacob: https://twitter.com/jacobaustin132/status/1663972128176128002,
+LTM-1,Magic,Dense,,,,,Special,23-Jun,Context window=5M,https://magic.dev/blog/ltm-1
+GPT-4 MathMix,OpenAI,Dense,1800,13000,8:01,16.1,"Wikipedia, books, common crawl",23-May,"Unreleased, includes step by step research",
+PandaGPT,Cambridge/Tencent,Dense,13,1000,77:01:00,0.4,"Wikipedia, books, common crawl",23-May,"Proto-AGI. 6 modalities (text, image/video, audio, depth, thermal, and IMU/accelerometer/gyroscope/compass). Based on Vicuna.",https://panda-gpt.github.io/
+Falcon,TII,Dense,40,1000,25:01:00,0.7,"Wikipedia, books, common crawl",23-May,Abu Dhabi,TS
+202305-refact2b-mqa-lion,Refact,Dense,1.6,,,,"Wikipedia, books, common crawl",23-May,"LiON vs Adam, code, RedPajama+The Stack",https://refact.ai/blog/2023/applying-recent-innovations-to-train-model/
+Guanaco,UW,Dense,65,1400,22:01,1,"Wikipedia, books, common crawl",23-May,LLaMA-65B via QLoRA,https://huggingface.co/spaces/uwnlp/guanaco-playground-tgi
+LIMA,Meta AI,Dense,65,,,,"Wikipedia, books, common crawl",23-May,"LLaMA-65B with nearly no fine-tuning, no RLHF",
+Formosa (FFM),Asus/TWS,Dense,176,366,3:01,0.8,"Wikipedia, books, common crawl",23-May,"BLOOMZ finetune? Chinese, Taiwan's first LLM. Subscription hardware: https://archive.md/cVdJt ",
+CodeT5+,Salesforce,Dense,16,,,,"Wikipedia, books, common crawl",23-May,"InstructCodeT5+ 16B sets new SoTA results of 35.0% pass@1 and 54.5% pass@10 against other open code LLMs, even surpassing the closed-source OpenAI code-cushman-001'",https://huggingface.co/Salesforce/codet5p-16b
+PaLM 2,Google,Dense,340,3600,11:01,3.7,"Wikipedia, books, common crawl",23-May,"“What we found in our work is that it’s not really the sort of size of model — that the larger is not always better,” Deepmind VP Zoubin Ghahramani said in a press briefing ahead of today’s announcement. “That’s why we’ve provided a family of models of different sizes. We think that actually parameter count is not really a useful way of thinking about the capabilities of models and capabilities are really to be judged by people using the models and finding out  whether they’re useful in the tests that they try to achieve with these models.”",https://console.cloud.google.com/vertex-ai/generative/language/create/chat
+StarCoder,HF/ServiceNow,Dense,15.5,1000,65:01:00,0.4,Special,23-May,,https://huggingface.co/bigcode/starcoderbase
+MPT,MosaicML,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-May,Llongboi' -Apache 2.0 license suitable for commercial use. -Base 7B LLM trained on 1T tokens outperforms LLaMA and GPT3. -64K+ context length. -$200k to train from scratch.,https://huggingface.co/mosaicml/mpt-7b
+Pi,Inflection AI,Dense,60?,,,,"Wikipedia, books, common crawl",23-May,No indication of params/tokens. Devs from DeepMind.,https://pi.ai/talk
+GPT-2B-001,NVIDIA,Dense,2,1100,550:01:00,0.2,"Wikipedia, books, common crawl",23-May,No paper yet,https://huggingface.co/nvidia/GPT-2B-001
+Titan,Amazon,Dense,200,4000,20:01,3,"Wikipedia, books, common crawl",23-Apr,"No official information at all. 2nd hand via Jack Clark: https://importai.substack.com/p/import-ai-365-wmd-benchmark-amazon '$65m training run. Specifically, they trained a 200B dense model on 4T tokens of data across 13,760 NVIDIA A100 chips (using 1,720 P4d nodes). It took 48 days to train.'",https://aws.amazon.com/bedrock/titan/
+WizardLM,Microsoft,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-Apr,LLaMA 7B self-instructed fine-tune.,https://6f8173a3550ed441ab.gradio.live/
+MPT,MosaicML,Dense,1.3,200,154:01:00,0.1,"Wikipedia, books, common crawl",23-Apr,More 1B models coming with different datasets. Many more.,https://huggingface.co/mosaicml/mpt-1b-redpajama-200b-dolly
+StableLM,Stability AI,Dense,65,1500,24:01:00,1,"Wikipedia, books, common crawl",23-Apr,"contains 1.5 trillion tokens, roughly 3x the size of The Pile. These models will be trained on up to 1.5 trillion tokens. The context length for these models is 4096 tokens.",https://huggingface.co/spaces/stabilityai/stablelm-tuned-alpha-chat
+Dolly 2.0,Databricks,Dense,12,300,25:01:00,0.2,"Wikipedia, books, common crawl",23-Apr,Fine-tuned Pythia 12B,https://huggingface.co/databricks/dolly-v2-12b
+Pythia,EleutherAI,Dense,12,300,25:01:00,0.2,"Wikipedia, books, common crawl",23-Apr,,https://huggingface.co/EleutherAI/pythia-12b
+Koala-13B,Berkeley,Dense,13,,,,"Wikipedia, books, common crawl",23-Apr,LLaMA base. Academic licence only.,https://chat.lmsys.org/?model=koala-13b
+C1.2,Character.ai,Dense,33,1000,31:01:00,0.6,"Wikipedia, books, common crawl",23-Mar,No details released.,https://blog.character.ai/character-ai/
+BloombergGPT,Bloomberg,Dense,50,569,12:01,0.6,"Wikipedia, books, common crawl",23-Mar,"Video: https://youtu.be/m2Scj2SO85Y Underperforms GPT-3, based on BLOOM. Tokens: 'We select a model size motivated by Hoffmann et al. (2022) and train a 50 billion parameter model on 569 billion tokens from our corpus of over 700 billion tokens to produce a model that is competitive with larger models.'",
+OpenFlamingo-9B,LAION,Dense,8.3,1000,121:01:00,0.3,"Wikipedia, books, common crawl",23-Mar,Uses LLaMA-7B. Demo: https://7164d2142d11.ngrok.app/,https://huggingface.co/openflamingo/OpenFlamingo-9B
+GPT4All-LoRa,Nomic,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-Mar,chatbot trained on ~800k GPT-3.5-Turbo Generations based on LLaMa,https://github.com/nomic-ai/gpt4all
+Cerebras-GPT,Cerebras,Dense,13,260,20:01,0.2,"Wikipedia, books, common crawl",23-Mar,20:1 tokens to parameters as per https://lifearchitect.ai/chinchilla/,https://huggingface.co/cerebras
+PanGu-Sigma,Huawei,MoE,1085,,,,Special,23-Mar,Sparse. 1.085T parameters named PanGu-Σ.,
+CoLT5,Google,Dense,5.2,,,,"Questions and answers, Common Crawl",23-Mar,up to 64k context window [48k words or about 96 pages -Alan],
+Med-PaLM 2,Google DeepMind,Dense,,,,,"Wikipedia, books, common crawl",23-Mar,"Recently, our next iteration, Med-PaLM 2, consistently performed at an “expert” doctor level on medical exam questions, scoring 85%. This is an 18% improvement from Med-PaLM’s previous performance and far surpasses similar AI models.",
+GPT-4,OpenAI,MoE,1760,13000,8:01,15.9,"Wikipedia, books, common crawl",23-Mar,Proto-AGI. 1.76T parameters MoE.,https://chat.openai.com/
+Alpaca,Stanford,Dense,7,1000,143:01:00,0.3,"Wikipedia, books, common crawl",23-Mar,Stanford Alpaca: An Instruction-following LLaMA model',https://crfm.stanford.edu/alpaca/
+Jurassic-2,AI21,Dense,178,,,,"Wikipedia, books, common crawl",23-Mar,,Studio
+GPT-NeoX-Chat-Base-20B,Together,Dense,20,,,,"Wikipedia, books, common crawl, special",23-Mar,"instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories. It was trained on the OIG-43M training dataset, which was a collaboration between Together, LAION, and Ontocord.ai. '",https://huggingface.co/spaces/togethercomputer/OpenChatKit
+Kosmos-1,Microsoft,Dense,1.6,360,225:01:00,0.1,"Wikipedia, books, common crawl",23-Feb,"Proto-AGI. Multimodal large language model (MLLM). Raven’s Progressive Matrices as real images, not digits as in testing of text-davinci-003 at https://lifearchitect.ai/ravens/",
+LLaMA-65B,Meta AI,Dense,65,1400,22:01,1,"Wikipedia, books, common crawl",23-Feb,"Researchers only, noncommercial only. 'LLaMA-65B is competitive with the best models, Chinchilla70B and PaLM-540B.'",Weights leaked: https://github.com/facebookresearch/llama/pull/73/files 
+MOSS,Fudan University,Dense,16,430,27:01:00,0.3,"Wikipedia, books, common crawl",23-Feb,Major bandwidth issues: https://www.reuters.com/technology/china-fudan-university-team-apologises-after-chatgpt-style-platform-crashes-2023-02-21/,https://moss.fastnlp.top/
+Palmyra,Writer,Dense,20,300,15:01,0.3,Special,23-Feb,"Only up to 5B available open-source 'trained on over 300 billion tokens of text data, and the size of the resulting model is over 20 billion parameters. ' https://writer.com/product/cowrite/",https://huggingface.co/models?search=palmyra
+Luminous Supreme Control,Aleph Alpha,Dense,70,588,9:01,0.7,"Wikipedia, books, common crawl",23-Feb,‘Control’ means instruction tuned,https://app.aleph-alpha.com/playground/completion
+Toolformer+Atlas 11B+NLLB 54B,Meta AI,Dense,6.7,402,60:01:00,0.2,"Wikipedia, books, common crawl",23-Feb,Based on GPT-J 6.7B + access to other models via API,Replicated: https://github.com/conceptofmind/toolformer
+Multimodal-CoT,Amazon,Dense,0.738,,,,Special,23-Feb,Models <1B with vision CoT,https://github.com/amazon-science/mm-cot
+FLAME,Microsoft,Dense,0.06,9,150:01:00,0,Special,23-Jan,"T5 for Excel formulas, very small 60M params, ""We start from a dataset of 927M formulas"" estimate 10x multiplier for 9B tokens",
+Med-PaLM 1,Google DeepMind,Dense,540,780,2:01,2.2,"Wikipedia, books, common crawl",22-Dec,Collab between Google & DeepMind. Makes 1% less errors than humans,
+OPT-IML,Meta AI,Dense,175,300,2:01,0.8,"Wikipedia, books, common crawl",22-Dec,Instruct,https://github.com/facebookresearch/metaseq/tree/main/projects/OPT-IML
+RL-CAI,Anthropic,Dense,52,400,8:01,0.5,"Wikipedia, books, common crawl",22-Dec,RLAIF=reinforcement learning with AI feedback,
+ERNIE-Code,Baidu,Dense,0.56,,,,Comon crawl,22-Dec,,
+RT-1,Google,Dense,0.035,,,,Special,22-Dec,,
+ChatGPT (gpt-3.5-turbo),OpenAI,Dense,20,,,,"Wikipedia, books, common crawl",22-Nov,"Instruct with strict policies (""extremely limited"")",https://chat.openai.com/
+text-davinci-003,OpenAI,Dense,,,,,"Wikipedia, books, common crawl",22-Nov,,https://chat.openai.com/
+GPT-JT,Together,Dense,6,,,,"Wikipedia, books, common crawl, special",22-Nov,,https://huggingface.co/spaces/togethercomputer/GPT-JT
+RWKV-4,RWKV,Dense,14,332,24:01:00,0.2,"Wikipedia, books, common crawl, special",22-Nov,"RNN, not transformer: https://www.reddit.com/r/MachineLearning/comments/yxt8sa/r_rwkv4_7b_release_an_attentionfree_rnn_language/",https://huggingface.co/BlinkDL
+Galactica,Meta AI,Dense,120,450,4:01,0.8,Books,22-Nov,scientific only,https://galactica.org/
+SED,DeepMind,Dense,,,,,Comon crawl,22-Nov,SED 420M (diffusion text model),
+mT0,BigScience,Dense,13,1000,77:01:00,0.4,"Questions and answers, Common Crawl",22-Nov,fine-tuned,https://github.com/bigscience-workshop/xmtf
+BLOOMZ,BigScience,Dense,176,366,3:01,0.8,"Reddit, Common crawl",22-Nov,fine-tuned,https://github.com/bigscience-workshop/xmtf
+PACT,Microsoft,Dense,,0.03,,0,Special,22-Oct,"Trained on ~5TB data, 2GB model download. 'In general we see an improvement in model performance as we increase the number of training tokens. Interestingly, larger models did not necessarily result in better performance for robot navigation. Even though larger models consistently presented better loss values for action prediction on a static dataset, (Fig. 7 b), when it comes to real-time deployment the larger network capacity introduces inference delays that become a disadvantage and lead to earlier crashes. For example, while LiDAR perception measurements arrive to the vehicle every 0.077s (13Hz), the largest model of 24 layers takes on average 0.023s for inference with a RTX3090 GPU, roughly 40% longer the 3 layer model (0.016s). These time differences can amount to even larger performance gaps in small embedded systems, and further emphasize the importance of multiple downstream task architectures sharing a common representation branch for real-time robotics applications.'",https://github.com/microsoft/PACT
+Flan-T5,Google,Dense,11,1100,100:01:00,0.4,"Questions and answers, Common Crawl",22-Oct,T5=1T tokens + LM-adapted T5 as 100B tokens,TS
+Flan-PaLM,Google,Dense,540,780,2:01,2.2,"Wikipedia, books, common crawl",22-Oct,,
+U-PaLM,Google,Dense,540,780,2:01,2.2,"Wikipedia, books, common crawl",22-Oct,,
+VIMA,NVIDIA,Dense,0.2,,,,Special,22-Oct,,Open: https://vimalabs.github.io/
+OpenChat,Tsinghua,Dense,13,2000,154:01:00,0.5,"Wikipedia, books, common crawl",22-Sep,Llama 2 13B -> OpenChat 13B,https://huggingface.co/openchat/openchat_3.5
+WeLM,Wechat,Dense,10,300,30:01:00,0.2,"Wikipedia, books, common crawl",22-Sep,13% English tokens and 87% Chinese,https://welm.weixin.qq.com/docs/playground/
+CodeGeeX,Tsinghua,Dense,13,850,66:01:00,0.4,Special,22-Sep,,
+Sparrow,DeepMind,Dense,70,1400,20:01,1,"Wikipedia, books, common crawl",22-Sep,Chatbot as a fine-tuned version of Chinchilla 70B,
+PaLI,Google,Dense,17,,,,Special,22-Sep,"PaLM Vision model, new datasets of 10B multilingual text-image pairs",
+NeMo Megatron-GPT 20B,NVIDIA,Dense,20,,,,"Wikipedia, books, common crawl",22-Sep,,https://huggingface.co/nvidia/nemo-megatron-gpt-20B
+Z-Code++,Microsoft,Dense,0.71,500,705:01:00,0.1,"Wikipedia, books, common crawl",22-Aug,"abstractive text summarization, 710M, outperforms PaLM 540B. ""Due to the limited computational resource, Z-Code++LARGE is trained with only 500B tokens instead of 1T tokens as that for mT5 training.""",
+Atlas,Meta AI,Dense,11,40,4:01,0.1,"Wikipedia, books, common crawl",22-Aug,,
+BlenderBot 3,Meta AI,Dense,175,300,2:01,0.8,"Wikipedia, books, common crawl",22-Aug,,blenderbot.ai (US only)
+GLM-130B,Tsinghua,Dense,130,400,4:01,0.8,"Wikipedia, books, common crawl",22-Aug,"50% English (200B tokens), so included here",https://huggingface.co/spaces/THUDM/GLM-130B
+AlexaTM 20B,Amazon,Dense,20,1300,65:01:00,0.5,"Wikipedia, books, common crawl",22-Aug,Wikipedia and mC4 only. seq2seq,Github (train/deploy)
+6.9B FIM,OpenAI,Dense,6.9,100,15:01,0.1,"Wikipedia, books, common crawl",22-Jul,"Several models: 8 sizes, NLP, Code, FIM/non-FIM. 100B tokens for 6.9B params... beyond chinchilla",
+‘monorepo-Transformer’,Google,Dense,0.5,,,,Comon crawl,22-Jul,Unnamed. Writes >3% of internal google code.,
+PanGu-Coder,Huawei,Dense,2.6,,,,Special,22-Jul,Python via GH,
+NLLB,Meta AI,MoE,54.5,,,,Special,22-Jul,"54.5B MOE, 3.3B dense. 200+ languages",Github (train/deploy)
+J-1 RBG,AI21,Dense,178,300,2:01,0.8,"Wikipedia, books, common crawl",22-Jul,J-1 fine-tuned with RBG law corpus,ask-rbg.ai
+BLOOM (tr11-176B-ml),BigScience,Dense,176,366,3:01,0.8,"Reddit, Common crawl",22-Jul,,https://huggingface.co/spaces/huggingface/bloom_demo
+Minerva,Google,Dense,540,818.5,2:01,2.2,"Wikipedia, books, common crawl",22-Jun,PaLM finetuned on LaTeX/arXiv maths,
+GODEL-XL,Microsoft,Dense,2.7,,,,"Wikipedia, books, common crawl",22-Jun,"XL: GPT-3 175B in paper, GPT-J 2.7B released",
+YaLM 100B,Yandex,Dense,100,300,3:01,0.6,"Wikipedia, books, common crawl",22-Jun,"Megatron-LM clone, Russian/English: https://medium.com/yandex/yandex-publishes-yalm-100b-its-the-largest-gpt-like-neural-network-in-open-source-d1df53d0e9a6",Github (train/deploy)
+Unified-IO,Allen AI,Dense,2.8,,,,"Wikipedia, books, common crawl",22-Jun,Based on T5. Demo only,Limited demo
+Perceiver AR,DeepMind,Dense,1,,,,"Wikipedia, books, common crawl",22-Jun,"Context window=100,000. Params=364m wiki, 975M pg-19, 826M books, music=?, imagenet=770M, ",
+LIMoE,Google,MoE,5.6,,,,"Wikipedia, books, common crawl",22-Jun,,
+GPT-4chan,Independent,Dense,6,,,,"Wikipedia, books, common crawl",22-Jun,Warning for inappropriate content. GPT-J.,https://huggingface.co/ykilcher/gpt-4chan/discussions/4
+Diffusion-LM,Stanford,Dense,0.3,,,,"Wikipedia, books, common crawl",22-May,GPT-J with synthetic data,Github (train/deploy)
+UL2 20B,Google,Dense,20,1000,50:01:00,0.5,Comon crawl,22-May,Unifying Language model. C4 only.,
+Gato (Cat),DeepMind,Dense,1,,,,"Wikipedia, books, common crawl",22-May,"Proto-AGI. Generalist agent (LLM, VLM, robot)",
+LaMDA 2,Google,Dense,137,,,,"Reddit, Common Crawl, Dialogue",22-May,Chatbot with tiny walled garden demo TBA,YouTube (video only)
+OPT-175B,Meta AI,Dense,175,300,2:01,0.8,"Wikipedia, books, common crawl",22-May,Only 30B available (Jun/2022),HF (train/deploy)
+Tk-Instruct,Hugging Face,Dense,11,,,,"Questions and answers, Common Crawl",22-Apr,Based on T5.,https://instructions.apps.allenai.org/demo
+InCoder,Meta AI,Dense,6.7,,,,"GH, StackOverflow",22-Apr,Python and JavaScript,https://huggingface.co/spaces/facebook/incoder-demo
+NOOR,TII,Dense,10,,,,"Wikipedia, books, common crawl",22-Apr,"Arabic. ""World’s largest high-quality cross-domain Arabic dataset, combining web data with books, poetry, news articles, and technical information""",
+mGPT,Sber,Dense,13,,,,"Wikipedia, books, common crawl",22-Apr,60 languages. Only 1.3B model available,Hugging Face
+PaLM-Coder,Google,Dense,540,780,2:01,2.2,Comon crawl,22-Apr,,
+PaLM,Google,Dense,540,780,2:01,2.2,"Wikipedia, books, common crawl",22-Apr,,
+SeeKeR,Meta AI,Dense,2.7,,,,"Wikipedia, books, common crawl",22-Mar,BART and compared to GPT-2,
+CodeGen,Salesforce,Dense,16,,,,"Wikipedia, books, common crawl",22-Mar,Code,"TS, Goose"
+VLM-4,LightOn,Dense,10,,,,Comon crawl,22-Mar,Params corrected 25/Apr/2022,Muse
+CM3,Meta AI,Dense,13,,,,"Wikipedia, books, common crawl",22-Jan,LLM with multimodal capabilities,
+Luminous,Aleph Alpha,Dense,200,,,,Comon crawl,21-Nov,Devs from EleutherAI,AA playground
+Chinchilla,DeepMind,Dense,70,1400,20:01,1,"Wikipedia, books, common crawl",22-Mar,First to double tokens per size increase,
+GPT-NeoX-20B,EleutherAI,Dense,20,,,,"Wikipedia, books, common crawl",22-Feb,Latest model to Feb/2022,"TS, Goose"
+ERNIE 3.0 Titan,Baidu,Dense,260,,,,"Wikipedia, books, common crawl",21-Dec,,
+XGLM,Meta AI,Dense,7.5,,,,Comon crawl,21-Dec,"Multilingual: 30 languages, 16 families. ",
+Fairseq,Meta AI,Dense,13 & 1100,,,,"Wikipedia, books, common crawl",21-Dec,,"TS, Goose"
+Gopher,DeepMind,Dense,280,300,2:01,1,"Wikipedia, books, common crawl",21-Dec,Dataset: https://lifearchitect.ai/whats-in-my-ai/ ,
+GLaM,Google,MoE,1200,,,,"Wikipedia, books, common crawl",21-Dec,,
+Anthropic-LM 52B,Anthropic,Dense,52,400,8:01,0.5,"Wikipedia, books, common crawl",21-Dec,Internal research only,
+RETRO,DeepMind,Dense,7.5,,,,"Wikipedia, books, common crawl",21-Dec,with retrieval,
+BERT-480,Google,Dense,480,,,,"Wikipedia,books, common crawl",21-Nov,Submission to benchmarks. Original dataset was BookCorpus + Wikipedia: https://arxiv.org/pdf/1810.04805.pdf,
+BERT-200,Google,Dense,200,,,,"Wikipedia,books, common crawl",21-Nov,Submission to benchmarks. Original dataset was BookCorpus + Wikipedia: https://arxiv.org/pdf/1810.04805.pdf,
+Cedille FR-Boris,Coteries,Dense,6,,,,"Wikipedia, books, common crawl",21-Nov,French only. GPT-J.,"Cedille, TS"
+MT-NLG,Microsoft/NVIDIA,Dense,530,270,1:01,1.3,"Wikipedia, books, common crawl",21-Oct,,
+FLAN,Google,Dense,137,,,,"Reddit, Common Crawl, Dialogue",21-Sep,Fine-tuned LaMDA,
+Command xlarge,Cohere,Dense,52.4,,,,"Books, common crawl",21-Sep,Stealth 'ebooks and webpages'. 52B: https://crfm.stanford.edu/helm/v1.0/?models=1,Cohere
+PLATO-XL,Baidu,Dense,11,,,,"Reddit, Dialogue",21-Sep,Chatbot. Reddit comments + CN social,Baidu
+Macaw,Allen AI,Dense,11,,,,Questions and answers,21-Sep,Chatbot,Allen (static demo only)
+CodeT5,Salesforce,Dense,0.7,,,,"Common crawl� BigQuery, BigPython",22-Mar,Code. Large introduced in https://arxiv.org/pdf/2207.01780.pdf,
+Codex,OpenAI,Dense,12,,,,Comon crawl,21-Aug,Code,Playground
+Jurassic-1,AI21,Dense,178,300,2:01,0.8,"Wikipedia, books, common crawl",21-Aug,Emulated GPT-3 dataset,Studio
+BlenderBot 2.0,Meta AI,Dense,9.4,,,,"Dialogue, Special",21-Jul,Chatbot,
+GPT-J,EleutherAI,Dense,6,402,67:01:00,0.2,"Wikipedia, books, common crawl",21-Jun,Popular,"TS, Goose"
+LaMDA,Google,Dense,137,,,,"Reddit, Common Crawl, Dialogue",21-Jun,Chatbot,YouTube (video only)
+ruGPT-3,Huawei/Sberbank,Dense,1.3,,,,"Common Crawl, ""170GB data""",21-Feb,Russian GPT-3 with input from Huawei,Sber Cloud
+Switch,Google,MoE,1600,576,1:01,3.2,"Questions and answers, Common Crawl",21-Jan,,
+GPT-3,OpenAI,Dense,175,300,2:01,0.8,"Wikipedia, books, common crawl",20-May,No RLHF (base only). Popular: 3.1M wpm. Dataset: https://lifearchitect.ai/whats-in-my-ai/ ,Sunset/deprecated :-(
+Megatron-11B,Meta AI,Dense,11,2200,200:01:00,0.5,"Wikipedia, books, common crawl",20-Apr,My favourite model until GPT-3 and GPT-4 came along: https://github.com/facebookresearch/fairseq/blob/main/examples/megatron_11b/README.md,InferKit
+Meena,Google,Dense,2.6,10000,"3,847:1",0.5,"Dialogue, Special",20-Jan,Dialogue model. Trained 61B tokens for 164x epochs to 10T tokens!,
+T5,Google,Dense,11,1000,91:01:00,0.3,"Questions and answers, Common Crawl",19-Oct,"C4 + NLP language problems. ""compared the following three configurations: First, the standard baseline model, which was pre-trained on 235 ≈ 34B tokens; second, the baseline trained instead for about 1 trillion tokens (i.e. the same amount of pre-training used for T5), which we refer to as “baseline-1T”; and third, T5-Base.""",
+RoBERTa,Meta AI,Dense,0.355,2200,"6,198:1",0.1,"Wikipedia, books, common crawl",19-Jul,"calcs: ""In total, this batch size and number of steps corresponds to pre-training on 235 ≈ 34B tokens. This is considerably less than BERT (Devlin et al., 2018), which used roughly 137B tokens, or RoBERTa (Liu et al., 2019c), which used roughly 2.2T tokens. Using only 2 35 tokens results in a reasonable computational budget while still providing a sufficient amount of pre-training for acceptable performance. We consider the effect of pre-training for more steps in Sections 3.6 and 3.7. Note that 2 35 tokens only covers a fraction of the entire C4 data set, so we never repeat any data during pre-training."" https://arxiv.org/pdf/1910.10683.pdf",Hugging Face
+GPT-2,OpenAI,Dense,1.5,10,7:01,0,Reddit,19-Feb,Reddit outbound only,Hugging Face
+BERT,Google,Dense,0.3,137,457:01:00,0,"Wikipedia, books",18-Oct,,Hugging Face
+GPT-1,OpenAI,Dense,0.117,0.003,1:01,0,Books,18-Jun,"Books only. ""We train for 100 epochs on minibatches of 64 randomly sampled, contiguous sequences of 512 tokens."" =3,276,800",Hugging Face
+ULMFiT,Fast.ai,Dense,0.034,0.1,3:01,0,Wikipedia,18-Jan,Aussie Prof Jeremy Howard: https://www.abc.net.au/news/science/2023-11-15/jeremy-howard-taught-ai-to-the-world-and-helped-invent-chatgpt/103092474,
