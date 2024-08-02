@@ -4,7 +4,7 @@
 
 This project leverages Azure's Custom Vision service to build a robust flower image classification model. By training the model on various flower images, it can accurately identify and classify different types of flowers. The Azure Custom Vision service provides a seamless and user-friendly platform to train, deploy, and refine the model, making it accessible for developers and researchers alike. This README contains the process of setting up the environment, training the model, and using it for flower image classification tasks.
 
-## Steps to Build the Model
+## Steps I Have Used to Build the Model
 
 ### Step 1: Creating a New Image Classification Project
 
