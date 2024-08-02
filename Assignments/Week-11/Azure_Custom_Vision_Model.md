@@ -8,12 +8,12 @@ This project leverages Azure's Custom Vision service to build a robust flower im
 
 ### Step 1: Creating a New Image Classification Project
 
-First, I log in to the Custom Vision Low-Code portal with your Azure account credentials. Then, created a new Image Classification project.  
+First, I log in to the Custom Vision Low-Code portal with my Azure account credentials. Then, I created a new Image Classification project.  
 ![Step 1](./Resources/New%20Project.png)
 
 ### Step 2: Uploading Images
 
-Then I start by uploading images to the project. Ideally, I uploaded them in an organized manner according to the images you will be tagging for image classification.  
+Then I start uploading images to the project. Ideally, I uploaded them in an organized manner according to the images that will be tagged for image classification.  
 ![Step 2](./Resources/Add%20Image.png)
 
 ### Step 3: Adding Images
@@ -50,5 +50,5 @@ In the Performance section, analyzing of the model is done using three metrics: 
 
 ### Step 7: Publishing the Model
 
-After establishing and testing the Custom Vision model, We can publish it from the Performance section by selecting an Iteration/Training. Once published, you can use this resource as a web API. You can also export the model in formats such as TensorFlow, CoreML, Docker container, among others. I haven't published it online as it requires some cost.
+After establishing and testing the Custom Vision model, We can publish it from the Performance section by selecting an Iteration/Training. Once published, we can use this resource as a web API. We can also export the model in various formats such as TensorFlow, CoreML, Docker container, among others. I haven't published it online as it requires some cost.
 
