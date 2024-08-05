@@ -8,7 +8,7 @@ This project leverages Azure's Custom Vision service to build a robust flower im
 
 ### Step 1: Creating a New Image Classification Project
 
-First, I log in to the Custom Vision Low-Code portal with my Azure account credentials. Then, I created a new Image Classification project.  
+First, I log in to the Microsoft Azure Custom Vision portal with my Azure account credentials. Then, I created a new Image Classification project.  
 ![Step 1](./Resources/Create%20Project.jpg)
 
 ![Step 1](./Resources/Fill%20Up%20Project%20Details.png)
