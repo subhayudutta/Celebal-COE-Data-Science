@@ -22,10 +22,12 @@ def index():
 @app.route('/api/generate', methods=['POST'])
 def generate_content():
     data = request.json
-    prompt = data.get('prompt', '')
+    user_prompt = data.get('prompt', '')
 
-    if not prompt:
+    if not user_prompt:
         return jsonify({'error': 'Prompt is required'}), 400
+
+    prompt = f"Generate a LinkedIn post based on the following: {user_prompt}"
 
     try:
         response = openai.Completion.create(

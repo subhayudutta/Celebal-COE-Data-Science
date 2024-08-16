@@ -8,7 +8,6 @@ The AI-Powered Content Generator for Social Media is designed to assist social m
 
 - **Automatic Post Generation:** Generates customized posts for various social media platforms.
 - **Hashtag and Keyword Suggestions:** Provides relevant hashtags and keywords to maximize reach and engagement.
-- **Trending Content Ideas:** Offers content ideas based on current trends and user interests.
 
 ## Tech Stack Used:
 - Flask
