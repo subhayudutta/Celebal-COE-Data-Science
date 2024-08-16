@@ -16,8 +16,6 @@ The AI-Powered Content Generator for Social Media is designed to assist social m
 - Azure App Service
 - Python
 
-## Deploying the API using Microsoft Azure
-
 ## Testing the API in Postman
 
 First I opened Postman and created a new POST request. Then I set the URL. After that I set the Body to raw and use JSON format. Then I send the Request and I received a JSON response with the generated content. 
