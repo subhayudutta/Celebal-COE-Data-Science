@@ -23,7 +23,7 @@ First I opened Postman and created a new POST request. Then I set the URL. After
 ![Alt Text](./Images/Postman_API.jpg)
 
 ## Testing the API by interacting with Webpage
-I tested the API by interacting with the HTML/CSS app interface, which allows to submit prompts and view generated content directly in your browser.
+I tested the API by interacting with the HTML/CSS app interface, which allows to submit prompts and view generated content directly in the browser.
 
 ![Alt Text](./Images/Webpage2.png)
 ![Alt Text](./Images/Webpage.png)
